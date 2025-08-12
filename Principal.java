@@ -33,6 +33,8 @@ public class Principal {
         System.out.println(drago);
         Bakugan percival = new Bakugan("Percival", "Esfera", "Darkus", 460);
         System.out.println(percival);
+        Trampa Hyslash = new Trampa("Hyslash", "Cilindro", "Ventus", "Pyrus", "Aquos");
+        System.out.println(Hyslash);
 
 
     }
