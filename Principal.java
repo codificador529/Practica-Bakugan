@@ -2,7 +2,7 @@ public class Principal {
     public static void main(String[] args) {
         System.out.println("Hola mundo");
 
-        Bakugan ingram = new Bakugan();// instanciar un objeto
+       /*  Bakugan ingram = new Bakugan();// instanciar un objeto
         ingram.tipo = "Esfera";
         ingram.atributo = "Ventus";
         ingram.poderG = 450;
@@ -26,7 +26,13 @@ public class Principal {
         percival.poderG = 460;
         System.out.println(percival.tipo);
         System.out.println(percival.atributo);
-        System.out.println(percival.poderG);
+        System.out.println(percival.poderG); */
+        Bakugan ingram = new Bakugan("Ingram", "Esfera", "Ventus", 450);
+        System.out.println(ingram);
+        Bakugan drago = new Bakugan("Drago", "Esfera", "Pyrus", 460);
+        System.out.println(drago);
+        Bakugan percival = new Bakugan("Percival", "Esfera", "Darkus", 460);
+        System.out.println(percival);
 
 
     }
